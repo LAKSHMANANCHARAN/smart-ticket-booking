@@ -1,0 +1,77 @@
+/* App.css */
+
+/* Reset some browser defaults */
+body {
+  margin: 0;
+  font-family: "Poppins", Arial, sans-serif;
+  background-color: #f5f7fa;
+  color: #333;
+}
+
+/* Page container */
+.page-container {
+  text-align: center;
+  padding: 60px 20px;
+  max-width: 500px;
+  margin: 100px auto;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Headings */
+h1, h2 {
+  color: #007bff;
+  margin-bottom: 20px;
+}
+
+/* Description text */
+p {
+  color: #555;
+  font-size: 16px;
+}
+
+/* Buttons */
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s;
+}
+
+button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+/* Input fields */
+input {
+  width: 80%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 15px;
+}
+
+/* Form container */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Links (optional inside forms) */
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
